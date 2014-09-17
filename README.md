@@ -17,5 +17,5 @@ Installation / Usage
 
     ``` sh
     $ php composer.phar create-package --no-interactive \
-        androa/imbo-bootstrap /path/to/install dev-master
+        androa/imbo-bootstrap /path/to/install
     ```
