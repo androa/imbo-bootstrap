@@ -1,6 +1,7 @@
 {
     "name": "androa/imbo-bootstrap",
     "description": "Bootstraps Imbo.",
+    "type": "metapackage",
     "license": "MIT",
     "authors": [
         {
@@ -13,8 +14,8 @@
     },
     "scripts": {
         "post-create-project-cmd": [
-            "cp ./vendor/imbo/imbo/config/ config",
-            "cp ./vendor/imbo/imbo/public/ public"
+            "cp -r ./vendor/imbo/imbo/config/ ./config",
+            "cp -r ./vendor/imbo/imbo/public/ ./public"
         ]
     }
 }
