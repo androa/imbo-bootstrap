@@ -14,7 +14,7 @@
     "scripts": {
         "post-create-project-cmd": [
             "cp ./vendor/imbo/imbo/config/ config",
-            "ln -s ./vendor/imbo/imbo/public/ public"
+            "cp ./vendor/imbo/imbo/public/ public"
         ]
     }
 }
