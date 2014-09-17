@@ -14,7 +14,9 @@
     "scripts": {
         "post-create-project-cmd": [
             "cp -r ./vendor/imbo/imbo/config/ ./config",
-            "cp -r ./vendor/imbo/imbo/public/ ./public"
+            "cp -r ./vendor/imbo/imbo/public/ ./public",
+            "rm ./LICENSE",
+            "rm ./README.md"
         ]
     }
 }
