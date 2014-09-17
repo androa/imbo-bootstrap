@@ -1,6 +1,7 @@
 {
     "name": "imbo/imbo-bootstrap",
     "description": "Bootstraps Imbo.",
+    "license": "MIT",
     "authors": [
         {
             "name": "André Roaldseth",
@@ -10,8 +11,10 @@
     "require": {
         "imbo/imbo": "*"
     },
-    "post-create-project-cmd": [
-        "cp ./vendor/imbo/imbo/config/ config",
-        "ln -s ./vendor/imbo/imbo/public/ public",
-    ]
+    "scripts": {
+        "post-create-project-cmd": [
+            "cp ./vendor/imbo/imbo/config/ config",
+            "ln -s ./vendor/imbo/imbo/public/ public"
+        ]
+    }
 }
