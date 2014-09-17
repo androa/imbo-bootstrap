@@ -1,7 +1,6 @@
 {
     "name": "androa/imbo-bootstrap",
     "description": "Bootstraps Imbo.",
-    "type": "metapackage",
     "license": "MIT",
     "authors": [
         {
