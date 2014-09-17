@@ -1,0 +1,17 @@
+{
+    "name": "imbo/imbo-bootstrap",
+    "description": "Bootstraps Imbo.",
+    "authors": [
+        {
+            "name": "André Roaldseth",
+            "email": "andre@roaldseth.net"
+        }
+    ],
+    "require": {
+        "imbo/imbo": "*"
+    },
+    "post-create-project-cmd": [
+        "cp ./vendor/imbo/imbo/config/ config",
+        "ln -s ./vendor/imbo/imbo/public/ public",
+    ]
+}
