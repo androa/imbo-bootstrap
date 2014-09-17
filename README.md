@@ -12,4 +12,8 @@ Installation / Usage
     $ curl -sS https://getcomposer.org/installer | php
     ```
 
-2. Run Composer: `php composer.phar create-package androa/imbo-bootstrap /path/to/install dev-master`
+2. Install with Composer:
+
+    ``` sh
+    $ php composer.phar create-package androa/imbo-bootstrap /path/to/install dev-master
+    ```
