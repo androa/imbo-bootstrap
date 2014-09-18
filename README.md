@@ -16,6 +16,6 @@ Installation / Usage
 2. Install with Composer:
 
     ``` sh
-    $ php composer.phar create-package --no-interactive \
+    $ php composer.phar create-project --no-interaction \
         androa/imbo-bootstrap /path/to/install
     ```
