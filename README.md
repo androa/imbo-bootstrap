@@ -21,6 +21,12 @@ Installation / Usage
         androa/imbo-bootstrap /path/to/install
     ```
 
+3. Optional: Open your favourite editor and remove the
+   `post-create-project-cmd` scripts, they are no longer needed.
+
+**IMPORTANT:** Rename the name in composer.json before adding it to your own source
+code version system!
+
 License
 -------
 Copyright (c) 2011-2014, André Roaldseth <andre@roaldseth.net>
