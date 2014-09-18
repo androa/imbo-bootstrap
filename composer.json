@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "imbo/imbo": "~1.0"
+        "imbo/imbo": ">=1.0"
     },
     "scripts": {
         "post-create-project-cmd": [
