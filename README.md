@@ -1,7 +1,8 @@
 Imbo Bootstrap
 ==============
 
-Used to quickly set up your own Imbo installation.
+Used to quickly set up your own Imbo installation. For information about Imbo,
+go see the [main project page](https://github.com/imbo/imbo).
 
 Installation / Usage
 --------------------
@@ -19,3 +20,15 @@ Installation / Usage
     $ php composer.phar create-project --no-interaction \
         androa/imbo-bootstrap /path/to/install
     ```
+
+License
+-------
+Copyright (c) 2011-2014, André Roaldseth <andre@roaldseth.net>
+
+Licensed under the MIT License
+
+Community
+---------
+If you have any questions feel free to join `#imbo` on the Freenode IRC
+network (`chat.freenode.net`), or ask them on the
+[forum](https://groups.google.com/forum/#!forum/imbo-project).
